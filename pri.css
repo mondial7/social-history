@@ -1,0 +1,29 @@
+
+#pricont {
+	width: 100%;
+	height: 100%;
+	background: #e8e8e8;
+}
+
+.prisez {
+	width: 100%;
+	height: 47%;
+	margin-bottom: 2%; 
+}
+
+.primedia {
+	position: relative;
+	width: 44%;
+	height: 100%;
+	background-color: #ffff99;
+}
+
+#prim1 {
+	top: 0;
+	left: 3%;
+}
+
+#prim2 {
+	top: 0;
+	left: 53%;
+}

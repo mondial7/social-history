@@ -1,0 +1,60 @@
+
+#pricont {
+	width: 100%;
+	height: 100%;
+	background: #202020;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+	overflow: hidden;
+}
+
+.prisez {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #202020;
+}
+
+#pris2 {
+	top: -100%;
+	left: 100%;
+}
+
+.primedia {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #202020;
+	background-position: center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#prim1 {
+	background-image: url('img/social_stat_60s.png');
+}
+
+#prim2 {
+	background-image: url('img/social_stat_profit_60s.png');
+}
+
+#pridown {
+	position: absolute;
+	top: 0;left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background: #FFBF00;
+	color: #222;
+	text-shadow: 0px 0px 2px #aaffaa;
+	text-align: center;
+	line-height: 100%;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+}

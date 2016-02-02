@@ -1,0 +1,56 @@
+body {
+	background: #04080F /*#111166*/;
+}
+
+#main {
+	width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    position: fixed;
+	margin: 20px;
+}
+
+.scr {
+	transition: 1s all;
+	-webkit-transition: 1s all;
+	position: absolute;
+    width: 20%;
+    height: 20%;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#scr1 {
+	top: 70%;
+    left: 7%;
+}
+
+#scr2 {
+	top: 40%;
+    left: 4%;
+	background: #000;
+}
+
+#scr3 {
+	top: 10%;
+    left: 7%;
+}
+
+#scr4 {
+	top: 40%;
+    left: 40%;
+}
+
+#scr5 {
+	top: 10%;
+    left: 73%;
+}
+
+#scr6 {
+	top: 40%;
+    left: 76%;
+}
+
+#scr7 {
+	top: 70%;
+    left: 73%;
+}

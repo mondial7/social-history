@@ -1,0 +1,58 @@
+body {
+	background: #112255;
+}
+
+#main {
+	width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    position: fixed;
+	margin: 20px;
+}
+
+#main div{
+	position: absolute;
+    width: 20%;
+    height: 20%;
+}
+
+#scr1 {
+	bottom: 10%;
+    left: 3%;
+    background: #004433;
+}
+
+#scr2 {
+	bottom: 40%;
+    left: 5%;
+    background: #ff44aa;
+}
+
+#scr3 {
+	top: 10%;
+    left: 7%;
+    background: #aaf483;
+}
+
+#scr4 {
+	top: 20%;
+    left: 40%;
+    background: #ef4783;
+}
+
+#scr5 {
+	top: 10%;
+    right: 7%;
+    background: #00ee33;
+}
+
+#scr6 {
+	bottom: 40%;
+    right: 5%;
+    background: #ff4433;
+}
+
+#scr7 {
+	bottom: 10%;
+    right: 3%;
+    background: #664433;
+}

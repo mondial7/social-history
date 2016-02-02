@@ -1,0 +1,66 @@
+
+#socialcontent {
+	margin: auto;
+	width: 100%;
+	max-width: 1050px;
+	height: 100%;
+	position: relative;
+}
+
+.socialbox {
+	display: inline-block;
+	margin: 1%;
+	width: 14%;
+	height: 20%;
+	max-height: 150px;
+	max-width: 150px;
+	transition: 0.7s all;
+	-webkit-transition: 0.7s all;
+}
+
+.socialfocus {
+	display: none;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	z-index: 4;
+	opacity: 0.9;
+	background: #f7f7f7;
+}
+
+.socialfocus p {
+	position: absolute;
+	right: 10%;
+	top: 5%;
+	width: 40%;
+	height: auto;
+	background: #fefefefe;
+}
+
+.socialfocus img {
+	position: absolute;
+	top: 5%;
+	left: 15%;
+	width: 20%;
+	height: 25%;
+}
+
+#socialback {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0; left: 0;
+	z-index: 3;
+}
+
+.socialbox img {
+	width: 100%;
+	height: 100%;
+}
+
+.socialbox span{
+	display: none;
+}
